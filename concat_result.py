@@ -1,6 +1,6 @@
 from utils.config import opt
 import torch
-from LoadData import train_loader, test_loader
+from LoadData import train_loader, concat_loader
 from torch.autograd import Variable
 from torch import nn
 from U_Net import U_Net
